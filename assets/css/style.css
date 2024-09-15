@@ -420,10 +420,14 @@ section {
 # Akills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 200px;
+  height: 220px;
   display: block;
   background: none;
   border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .skills .progress .skill {
